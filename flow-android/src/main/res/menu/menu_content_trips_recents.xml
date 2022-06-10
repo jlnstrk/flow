@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_tune"
+        android:icon="@drawable/ic_tune_24dp"
+        android:title="@string/action_tune_search"
+        app:iconTint="?attr/colorPrimary"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_submit"
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/action_find_connections"
+        app:iconTint="?attr/colorPrimary"
+        app:showAsAction="ifRoom" />
+
+</menu>

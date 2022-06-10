@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="82dp">
+
+    <com.xfinity.dahdit.DottedLine
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:dotColor="@color/divider"
+        app:dotRadius="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:minimumDotGap="10dp"
+        app:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="28dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textAppearance="?textAppearanceBody2"
+        android:textColor="?colorOnSurface"
+        app:drawableStartCompat="@drawable/ic_station_24dp"
+        app:drawableTint="?colorOnSurface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_transfer_indicator"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>

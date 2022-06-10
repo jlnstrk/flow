@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="palette_neutral_primary">#162d41</color>
+    <color name="palette_neutral_primary_light">#233A4E</color>
+    <color name="palette_neutral_primary_dark">#152839</color>
+
+    <color name="realtime_early">#F57F17</color>
+    <color name="realtime_on_time">#43A047</color>
+    <color name="realtime_delayed">#DB3A30</color>
+
+    <!-- 15% -->
+    <color name="status_bar_overlay_dark">#26000000</color>
+
+    <!-- Default for non-DayNight themes -->
+    <eat-comment />
+    <color name="on_light_icon">#8A000000</color>
+    <color name="on_light_icon_disabled">#42000000</color>
+    <color name="on_light_text_primary">#DE000000</color>
+    <color name="on_light_text_secondary">#8A000000</color>
+
+    <color name="on_dark_icon">@android:color/white</color>
+    <color name="on_dark_icon_disabled">#4DFFFFFF</color>
+    <color name="on_dark_text_primary">#FFFFFFFF</color>
+    <color name="on_dark_text_secondary">#B3FFFFFF</color>
+
+    <color name="dark_grey">#FF121212</color>
+    <color name="dark_grey_light">#171717</color>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.Sequence.BackdropField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:stateListAnimator="@animator/state_list_via_field">
+
+    <TextView
+        android:id="@+id/location"
+        style="@style/Widget.Sequence.TextView.BackdropField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="56dp"
+        android:transitionName="@string/tn_trips_location"
+        tools:drawableStart="@drawable/ic_via_a_24dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/wait_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="8dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingStart="0dp"
+        android:paddingEnd="8dp"
+        android:text="@string/via_wait_time"
+        android:textAppearance="?textAppearanceCaption"
+        android:transitionName="@string/tn_trips_wait_time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame>

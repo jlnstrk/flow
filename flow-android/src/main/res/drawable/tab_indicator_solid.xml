@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/tab_indicator_height" />
+    <solid android:color="?attr/colorTabIndicator" />
+    <corners android:radius="@dimen/shape_small_corner_radius" />
+</shape>

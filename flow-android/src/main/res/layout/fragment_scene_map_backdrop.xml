@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.julianostarek.flow.ui.common.map.BackdropMapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mapContentPadding="16dp"
+        app:mapId="@string/map_id"
+        app:mapUiPadding="8dp"
+        app:topWindowHeight="256dp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:elevation="@dimen/content_layer_elevation"
+        app:backgroundTint="?attr/colorSurface"
+        app:behavior_draggable="true"
+        app:behavior_expandedOffset="0dp"
+        app:behavior_fitToContents="false"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="128dp"
+        app:behavior_saveFlags="none"
+        app:behavior_skipCollapsed="false"
+        app:layout_behavior=".ui.common.NestedScrollingBottomSheetBehavior"
+        app:shapeAppearance="?shapeAppearanceLargeComponent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Sequence.MapForeground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:visibility="invisible"
+        app:backgroundTint="?colorSurface"
+        app:elevation="@dimen/fab_elevation"
+        app:fabSize="mini"
+        app:rippleColor="?android:attr/colorControlHighlight"
+        app:srcCompat="@drawable/ic_back_24dp"
+        app:tint="?colorOnSurface"
+        tools:visibility="visible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:visibility="invisible"
+        app:backgroundTint="?colorSurface"
+        app:elevation="@dimen/fab_elevation"
+        app:fabSize="mini"
+        app:rippleColor="?android:attr/colorControlHighlight"
+        app:srcCompat="@drawable/ic_state_info_24dp"
+        app:tint="?colorOnSurface"
+        tools:visibility="visible" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:background="?attr/colorSurface"
+        android:elevation="@dimen/footer_elevation"
+        android:stateListAnimator="@null">
+
+        <TextView
+            android:id="@+id/footer_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textAppearance="?textAppearanceBody2" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/loading"
+            style="@style/Widget.Sequence.ProgressIndicator.ContentLayer.Refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

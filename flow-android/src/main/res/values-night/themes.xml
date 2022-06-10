@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Sequence" parent="Base.Theme.Sequence">
+        <item name="colorPrimaryLightSurfaceLight">?attr/colorSurfaceLight</item>
+        <item name="colorOnPrimaryLightSurfaceLight">?attr/colorOnSurface</item>
+
+        <item name="colorTabIndicator">?attr/colorPrimary</item>
+        <item name="colorTabIndicatorInverse">?attr/colorOnPrimary</item>
+        <item name="colorSurfaceLight">@color/dark_grey_light</item>
+        <item name="colorOnPrimary">@color/on_light_text_primary</item>
+        <item name="colorOnSurface">@color/on_dark_icon</item>
+    </style>
+
+</resources>

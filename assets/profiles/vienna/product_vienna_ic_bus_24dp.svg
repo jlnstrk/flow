@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg height="96" width="96" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h96v96H0z" fill="#112a5d" />
+    <path
+        d="M 79 60 V 45 H 83.5 L 84.5 60 Z M 76 67 H 63 V 45 H 76 Z M 60 60 H 47 V 45 H 60 Z M 44 60 H 31 V 45 H 44 Z M 28 67 H 15 V 45 H 28 Z M 88 65 L 86.384 43.304 S 86 38 76 38 H 55 L 44 40 H 2.976 V 45 H 12 V 60 H 2.976 V 72 H 45.85 Q 45.75 71.25 45.75 70.5 C 45.75 66.25 49.25 62.75 53.5 62.75 C 57.75 62.75 61.25 66.25 61.25 70.5 Q 61.25 71.25 61.15 72 L 87 72 C 88.112 69.648 88 65 88 65"
+        fill="#FFFFFF" fill-rule="evenodd" />
+    <path d="M 53.5 65 A 1 1 0 0 1 53.5 76 A 1 1 0 0 1 53.5 65" fill="#FFFFFF"
+        fill-rule="evenodd" />
+</svg>

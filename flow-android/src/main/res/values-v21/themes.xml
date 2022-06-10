@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.V21.Theme.Sequence" parent="Platform.Base.Theme.Sequence">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/status_bar_overlay_dark</item>
+    </style>
+
+    <style name="Platform.Theme.Sequence" parent="Platform.V21.Theme.Sequence" />
+
+    <style name="V21.ThemeOverlay.Sequence.BackdropActivity" parent="Base.ThemeOverlay.Sequence.BackdropActivity">
+
+    </style>
+
+    <style name="ThemeOverlay.Sequence.BackdropActivity" parent="V21.ThemeOverlay.Sequence.BackdropActivity" />
+
+</resources>

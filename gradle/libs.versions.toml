@@ -1,0 +1,86 @@
+[versions]
+kotlin = "1.7.0"
+coroutines = "1.6.2"
+hilt = "2.42"
+lifecycle = "2.4.0"
+room = "2.5.0-alpha02"
+paging = "3.1.1"
+glide = "4.13.2"
+firebase = "26.1.1"
+transit = "0.1.0-SNAPSHOT"
+googleServicesGradle = "4.3.10"
+buildkonfig = "0.12.0"
+ksp = "1.7.0-1.0.6"
+ktor = "2.0.2"
+
+[libraries]
+kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+androidGradle = { module = "com.android.tools.build:gradle", version = "7.0.0" }
+hiltGradle = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
+googleServicesGradle = { module = "com.google.gms:google-services", version.ref = "googleServicesGradle" }
+buildkonfigGradle = { module = "com.codingfeline.buildkonfig:buildkonfig-gradle-plugin", version.ref = "buildkonfig" }
+
+androidx-room-core = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
+androidx-paging-runtime = { module = "androidx.paging:paging-runtime-ktx", version.ref = "paging" }
+androidx-paging-common = { module = "androidx.paging:paging-common-ktx", version.ref = "paging" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version = "2.2.0" }
+androidx-lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycle" }
+androidx-lifecycle-compiler = { module = "androidx.lifecycle:lifecycle-compiler", version.ref = "lifecycle" }
+androidx-core = { module = "androidx.core:core-ktx", version = "1.8.0" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.4.2" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version = "1.4.1" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version = "1.2.1" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version = "2.1.4" }
+androidx-preference = { module = "androidx.preference:preference-ktx", version = "1.2.0" }
+androidx-test-espresso-core = { module = "androidx.test.espresso:espresso-core", version = "3.4.0" }
+androidx-test-runner = { module = "androidx.test:runner", version = "1.4.0" }
+androidx-test-rules = { module = "androidx.test:rules", version = "1.4.0" }
+
+firebase-core = { module = "com.google.firebase:firebase-core", version = "20.0.0" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore-ktx", version = "24.1.2" }
+
+glide-core = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+
+google-material = { module = "com.google.android.material:material", version = "1.6.1" }
+google-gms-location = { module = "com.google.android.gms:play-services-location", version = "20.0.0" }
+google-gms-maps = { module = "com.google.android.gms:play-services-maps", version = "18.0.2" }
+google-maps-utils = { module = "com.google.maps.android:android-maps-utils-v3", version = "2.3.0" }
+
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
+ktor-client-ios = { module = "io.ktor:ktor-client-ios", version.ref = "ktor" }
+
+transit-common = { module = "de.jlnstrk.transit:common", version.ref = "transit" }
+transit-interop-hci = { module = "de.jlnstrk.transit:interop-hci", version.ref = "transit" }
+transit-interop-hapi = { module = "de.jlnstrk.transit:interop-hapi", version.ref = "transit" }
+transit-interop-efa = { module = "de.jlnstrk.transit:interop-efa", version.ref = "transit" }
+transit-interop-trias = { module = "de.jlnstrk.transit:interop-trias", version.ref = "transit" }
+
+desugarJdkLibs = { module = "com.android.tools:desugar_jdk_libs", version = "1.1.5" }
+logger = { module = "com.orhanobut:logger", version = "2.2.0" }
+recyclerviewAnimators = { module = "jp.wasabeef:recyclerview-animators", version = "4.0.2" }
+dahdit = { module = "com.xfinity:dahdit", version = "0.9.3" }
+debugDb = { module = "com.amitshekhar.android:debug-db", version = "1.0.6" }
+
+[bundles]
+transit = [
+    "transit-common",
+    "transit-interop-hci",
+    "transit-interop-hapi",
+    "transit-interop-efa",
+    "transit-interop-trias"
+]
+
+[plugins]
+buildkonfig = { id = "com.codingfeline.buildkonfig", version.ref = "buildkonfig" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

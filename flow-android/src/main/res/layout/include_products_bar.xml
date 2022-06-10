@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dividerInsetEnd="24dp"
+        app:dividerInsetStart="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/header_filter_products"
+        android:textAppearance="?attr/textAppearanceSubtitle2"
+        app:drawableStartCompat="@drawable/ic_filter_list_24dp"
+        app:drawableTint="?attr/colorOnPrimarySurface" />
+
+    <de.julianostarek.flow.ui.common.view.ProductSelectionBar
+        android:id="@+id/products_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp" />
+
+</merge>

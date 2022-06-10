@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="end"
+    android:minHeight="32dp"
+    android:orientation="horizontal"
+    android:paddingStart="?attr/keylinePlus56dp">
+
+    <de.julianostarek.flow.ui.common.view.LineDirectionView
+        android:id="@+id/line_direction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" />
+
+    <de.julianostarek.flow.ui.common.time.TimeView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="?attr/keyline"
+        android:layout_weight="0"
+        android:gravity="center_vertical|end"
+        android:textAppearance="?textAppearanceSubtitle1"
+        app:captionTextAppearance="?attr/textAppearanceSubtitle2"
+        app:displayDistant="absolute_relative"
+        app:displayMultiline="false"
+        app:displayNear="relative"
+        tools:text="7 min" />
+
+</LinearLayout>

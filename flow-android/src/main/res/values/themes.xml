@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.Base.Theme.Sequence" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="Platform.Theme.Sequence" parent="Platform.Base.Theme.Sequence" />
+
+    <style name="Base.Theme.Sequence" parent="Platform.Theme.Sequence">
+        <item name="textAppearanceTab">@style/TextAppearance.Sequence.Tab</item>
+
+        <item name="colorPrimaryDark">?attr/colorPrimaryVariant</item>
+
+        <!-- Sequence's colorSecondary values mirror those of colorPrimary -->
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorSecondaryVariant">?attr/colorPrimaryVariant</item>
+        <item name="colorOnSecondary">?attr/colorOnPrimary</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Sequence.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Sequence.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Sequence.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Sequence.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Sequence.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Sequence.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Sequence.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Sequence.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Sequence.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Sequence.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Sequence.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Sequence.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Sequence.Overline</item>
+
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Sequence.LargeComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">
+            @style/ShapeAppearance.Sequence.MediumComponent
+        </item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Sequence.SmallComponent
+        </item>
+
+        <item name="appBarLayoutStyle">@style/Widget.Sequence.AppBarLayout</item>
+        <item name="tabStyle">@style/Widget.Sequence.TabLayout</item>
+
+        <item name="materialButtonStyle">@style/Widget.Sequence.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Sequence.Button.Outlined</item>
+        <item name="snackbarStyle">@style/Widget.Sequence.Snackbar</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.Sequence.Toolbar.Button.Navigation.Background
+        </item>
+
+        <item name="android:textAppearanceSmall">?attr/textAppearanceBody1</item>
+        <item name="preferenceTheme">@style/Widget.Sequence.Preference</item>
+        <item name="preferenceCategoryTitleTextAppearance">?attr/textAppearanceOverline</item>
+        <item name="android:textAppearanceListItem">?attr/textAppearanceBody1</item>
+        <item name="android:textAppearanceListItemSecondary">?attr/textAppearanceCaption</item>
+        <!-- Additional framework hook-ins -->
+    </style>
+
+    <style name="Theme.Sequence" parent="Base.Theme.Sequence">
+        <item name="colorPrimaryLightSurfaceLight">?attr/colorPrimaryLight</item>
+        <item name="colorOnPrimaryLightSurfaceLight">?attr/colorOnPrimary</item>
+        <item name="colorTabIndicator">?attr/colorOnPrimary</item>
+        <item name="colorTabIndicatorInverse">?attr/colorPrimary</item>
+        <item name="colorOnSurface">@color/on_light_icon</item>
+    </style>
+
+    <style name="Base.ThemeOverlay.Sequence.BackdropActivity" parent="">
+        <item name="android:windowBackground">?attr/colorPrimarySurface</item>
+        <item name="keyline">@dimen/keyline_fg</item>
+        <item name="keylinePlus24dp">@dimen/keyline_fg_plus24dp</item>
+        <item name="keylinePlus56dp">@dimen/keyline_fg_plus56dp</item>
+        <item name="keylinePlus112dp">@dimen/keyline_fg_plus112dp</item>
+    </style>
+
+    <style name="ThemeOverlay.Sequence.BackdropActivity" parent="Base.ThemeOverlay.Sequence.BackdropActivity" />
+
+    <style name="ThemeOverlay.Sequence.Light" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="ThemeOverlay.Sequence.Dark" parent="ThemeOverlay.MaterialComponents.Dark" />
+
+    <style name="ThemeOverlay.Sequence.ForegroundLayer" parent="">
+        <item name="keyline">@dimen/keyline_fg</item>
+        <item name="keylinePlus24dp">@dimen/keyline_fg_plus24dp</item>
+        <item name="keylinePlus56dp">@dimen/keyline_fg_plus56dp</item>
+        <item name="keylinePlus112dp">@dimen/keyline_fg_plus112dp</item>
+        <item name="appBarLayoutStyle">@null</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.Sequence.Toolbar.Button.Navigation.Surface
+        </item>
+        <item name="colorLogoDb">@color/product_verkehrsrot</item>
+    </style>
+
+    <style name="ThemeOverlay.Sequence.Dialog" parent="ThemeOverlay.Sequence.ForegroundLayer">
+
+    </style>
+
+    <!-- Profile themes -->
+
+    <style name="Theme.Sequence.Munich" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_munich</item>
+        <item name="colorPrimaryVariant">@color/profile_munich_dark</item>
+        <item name="colorPrimaryLight">@color/profile_munich_light</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Sequence.Headline1.Munich</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Sequence.Headline2.Munich</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Sequence.Headline3.Munich</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Sequence.Headline4.Munich</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Sequence.Headline5.Munich</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Sequence.Headline6.Munich</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Sequence.Subtitle1.Munich</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Sequence.Subtitle2.Munich</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Sequence.Body1.Munich</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Sequence.Body2.Munich</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Sequence.Button.Munich</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Sequence.Caption.Munich</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Sequence.Overline.Munich</item>
+    </style>
+
+    <style name="Theme.Sequence.Stuttgart" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_stuttgart</item>
+        <item name="colorPrimaryVariant">@color/profile_stuttgart_dark</item>
+        <item name="colorPrimaryLight">@color/profile_stuttgart_light</item>
+    </style>
+
+    <style name="Theme.Sequence.Frankfurt" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_frankfurt</item>
+        <item name="colorPrimaryVariant">@color/profile_frankfurt_dark</item>
+        <item name="colorPrimaryLight">@color/profile_frankfurt_light</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Sequence.Headline1.Frankfurt</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Sequence.Headline2.Frankfurt</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Sequence.Headline3.Frankfurt</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Sequence.Headline4.Frankfurt</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Sequence.Headline5.Frankfurt</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Sequence.Headline6.Frankfurt</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Sequence.Subtitle1.Frankfurt</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Sequence.Subtitle2.Frankfurt</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Sequence.Body1.Frankfurt</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Sequence.Body2.Frankfurt</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Sequence.Button.Frankfurt</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Sequence.Caption.Frankfurt</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Sequence.Overline.Frankfurt</item>
+    </style>
+
+    <style name="Theme.Sequence.Berlin" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_berlin</item>
+        <item name="colorPrimaryVariant">@color/profile_berlin_dark</item>
+        <item name="colorPrimaryLight">@color/profile_berlin_light</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Sequence.Headline1.Berlin</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Sequence.Headline2.Berlin</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Sequence.Headline3.Berlin</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Sequence.Headline4.Berlin</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Sequence.Headline5.Berlin</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Sequence.Headline6.Berlin</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Sequence.Subtitle1.Berlin</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Sequence.Subtitle2.Berlin</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Sequence.Body1.Berlin</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Sequence.Body2.Berlin</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Sequence.Button.Berlin</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Sequence.Caption.Berlin</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Sequence.Overline.Berlin</item>
+    </style>
+
+    <style name="Theme.Sequence.Hamburg" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_hamburg</item>
+        <item name="colorPrimaryVariant">@color/profile_hamburg_dark</item>
+        <item name="colorPrimaryLight">@color/profile_hamburg_light</item>
+    </style>
+
+    <style name="Theme.Sequence.Vienna" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_vienna</item>
+        <item name="colorPrimaryVariant">@color/profile_vienna_dark</item>
+        <item name="colorPrimaryLight">@color/profile_vienna_light</item>
+    </style>
+
+    <style name="Theme.Sequence.Zurich" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_zurich</item>
+        <item name="colorPrimaryVariant">@color/profile_zurich_dark</item>
+        <item name="colorPrimaryLight">@color/profile_zurich_light</item>
+    </style>
+
+    <style name="Theme.Sequence.RheinRuhr" parent="Theme.Sequence">
+        <item name="colorPrimary">@color/profile_rheinruhr</item>
+        <item name="colorPrimaryVariant">@color/profile_rheinruhr_dark</item>
+        <item name="colorPrimaryLight">@color/profile_rheinruhr_light</item>
+    </style>
+
+</resources>

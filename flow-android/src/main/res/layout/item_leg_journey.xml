@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_height="64dp">
+
+    <de.julianostarek.flow.ui.common.view.LineGroupView
+        android:id="@+id/line_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/direction"
+        app:layout_constraintHeight_min="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/direction"
+        tools:layout_width="56dp" />
+
+    <TextView
+        android:id="@+id/direction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="middle"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:textAppearance="?textAppearanceBody1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/realtime"
+        app:layout_constraintEnd_toStartOf="@id/countdown_time"
+        app:layout_constraintHeight_min="24dp"
+        app:layout_constraintStart_toEndOf="@id/line_group"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="to Bad Vilbel Alte Frankfurter Straße" />
+
+    <TextView
+        android:id="@+id/realtime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:textAppearance="?textAppearanceCaption"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/countdown_time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/direction"
+        tools:text="Platform 102 - On Time - 11:03" />
+
+    <TextView
+        android:id="@+id/countdown_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="?textAppearanceBody1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Now" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

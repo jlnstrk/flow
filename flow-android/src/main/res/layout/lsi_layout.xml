@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/lsi_caption"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:textAppearance="?textAppearanceBody1"
+        tools:text="Fetching trips..." />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/lsi_progress"
+        style="@style/Widget.Sequence.ProgressIndicator.ContentLayer.Load"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</merge>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_realtime_signal_24dp">
+
+    <target
+        android:name="outer_left"
+        android:animation="@animator/avd_ic_realtime_signal_outer" />
+
+    <target
+        android:name="outer_right"
+        android:animation="@animator/avd_ic_realtime_signal_outer" />
+
+    <target
+        android:name="inner_left"
+        android:animation="@animator/avd_ic_realtime_signal_inner" />
+
+    <target
+        android:name="inner_right"
+        android:animation="@animator/avd_ic_realtime_signal_inner" />
+
+    <target
+        android:name="center"
+        android:animation="@animator/avd_ic_realtime_signal_center" />
+
+</animated-vector>

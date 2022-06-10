@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Contribute">
+
+        <Preference
+            app:icon="@drawable/ic_crowdsource_24dp"
+            app:key="map_inquiry"
+            app:title="Report a missing/out of date map" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="backdrop_transition">150</integer>
+    <integer name="backdrop_transition_fade_delay">50</integer>
+    <integer name="backdrop_transition_fade">100</integer>
+</resources>

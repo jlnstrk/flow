@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="56dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_item_outline"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/item_load_more_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:textAppearance="?textAppearanceButton"
+        android:textColor="?colorOnSurface"
+        app:drawableTint="?colorOnSurface"
+        app:drawableTopCompat="@drawable/ic_refresh_18dp"
+        tools:text="@string/load_succeeding" />
+
+</FrameLayout>

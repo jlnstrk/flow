@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="User interface">
+
+        <DropDownPreference
+            app:icon="@drawable/ic_view_mode_24dp"
+            app:key="trips_result_view_mode"
+            app:summary="%s"
+            app:title="Default result view mode" />
+
+        <CheckBoxPreference
+            app:defaultValue="true"
+            app:key="trips_alternatives_preview"
+            app:summaryOff="Disabled"
+            app:summaryOn="Enabled"
+            app:title="Show alternatives in preview" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Results"
+        app:initialExpandedChildrenCount="2">
+
+        <DropDownPreference
+            android:entryValues="@array/preference_entries_speed_values"
+            app:entries="@array/preference_entries_speed"
+            app:icon="@drawable/ic_individual_walk_24dp"
+            app:key="walking_speed"
+            app:summary="%s"
+            app:title="@string/preference_title_walking_speed" />
+
+        <DropDownPreference
+            android:entryValues="@array/preference_entries_speed_values"
+            app:entries="@array/preference_entries_speed"
+            app:icon="@drawable/ic_station_24dp"
+            app:key="chaning_speed"
+            app:summary="%s"
+            app:title="@string/preference_title_changing_speed" />
+
+        <CheckBoxPreference
+            android:title="Bicycle sections"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_individual_bike_24dp"
+            app:key="bicycle_enabled" />
+
+        <CheckBoxPreference
+            android:title="Car sections"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_individual_car_24dp"
+            app:key="car_enabled" />
+
+        <CheckBoxPreference
+            android:title="Taxi sections"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_individual_taxi_24dp"
+            app:key="taxi_enabled" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

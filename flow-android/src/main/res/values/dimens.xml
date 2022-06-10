@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_outline_stroke_width">1dp</dimen>
+
+    <dimen name="app_bar_layout_elevation">4dp</dimen>
+    <dimen name="content_layer_elevation">8dp</dimen>
+    <dimen name="footer_elevation">10dp</dimen>
+    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="content_layer_app_bar_size">48dp</dimen>
+
+    <dimen name="tab_indicator_height">32dp</dimen>
+
+    <dimen name="shape_large_corner_radius">24dp</dimen>
+    <dimen name="shape_medium_corner_radius">4dp</dimen>
+    <dimen name="shape_small_corner_radius">8dp</dimen>
+
+    <dimen name="keyline_base">16dp</dimen>
+    <dimen name="keyline_base_plus24dp">40dp</dimen>
+    <dimen name="keyline_base_plus56dp">72dp</dimen>
+    <dimen name="keyline_base_plus112dp">128dp</dimen>
+
+    <dimen name="keyline_fg">24dp</dimen>
+    <dimen name="keyline_fg_plus24dp">48dp</dimen>
+    <dimen name="keyline_fg_plus56dp">80dp</dimen>
+    <dimen name="keyline_fg_plus112dp">136dp</dimen>
+
+    <dimen name="keyline_trip_details">48dp</dimen>
+
+</resources>

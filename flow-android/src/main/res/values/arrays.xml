@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="ic_via_ids">
+        <item>@drawable/ic_via_a_24dp</item>
+        <item>@drawable/ic_via_b_24dp</item>
+        <item>@drawable/ic_via_c_24dp</item>
+        <item>@drawable/ic_via_d_24dp</item>
+    </integer-array>
+
+</resources>

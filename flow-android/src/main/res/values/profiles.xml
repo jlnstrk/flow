@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="product_generic_regionalzug" translatable="false">Regionalzug</string>
+    <string name="product_generic_regional_express" translatable="false">RegionalExpress</string>
+    <string name="product_generic_regional_bahn" translatable="false">RegionalBahn</string>
+    <string name="product_generic_s_bahn" translatable="false">S-Bahn</string>
+    <string name="product_generic_u_bahn" translatable="false">U-Bahn</string>
+    <string name="product_generic_tram" translatable="false">Tram</string>
+    <string name="product_generic_bus" translatable="false">Bus</string>
+    <string name="product_generic_metro_bus" translatable="false">MetroBus</string>
+    <string name="product_generic_express_bus" translatable="false">ExpressBus</string>
+    <string name="product_generic_regional_bus" translatable="false">RegionalBus</string>
+    <string name="product_generic_faehre" translatable="false">Fähre</string>
+    <string name="product_generic_nacht_tram" translatable="false">NachtTram</string>
+    <string name="product_generic_nacht_bus" translatable="false">NachtBus</string>
+
+    <color name="profile_munich">#4562A2</color>
+    <color name="profile_munich_light">#526FAF</color>
+    <color name="profile_munich_dark">#2C4989</color>
+
+    <string name="product_munich_stadt_bus" translatable="false">StadtBus</string>
+    <string name="product_munich_ruftaxi" translatable="false">Ruftaxi</string>
+
+    <color name="profile_berlin">#373632</color>
+    <color name="profile_berlin_light">#3F3E3A</color>
+    <color name="profile_berlin_dark">#1E1D19</color>
+    <string name="product_berlin_bahn" translatable="false">Bahn</string>
+    <string name="product_berlin_metro_tram" translatable="false">MetroTram</string>
+
+    <color name="profile_stuttgart">#c67753</color>
+    <color name="profile_stuttgart_light">#D38460</color>
+    <color name="profile_stuttgart_dark">#B96A46</color>
+
+    <color name="profile_frankfurt">#FF2a797e</color>
+    <color name="profile_frankfurt_light">#FF37868B</color>
+    <color name="profile_frankfurt_dark">#FF116065</color>
+
+    <color name="profile_hamburg">#FF862d33</color>
+    <color name="profile_hamburg_light">#FF933A40</color>
+    <color name="profile_hamburg_dark">#FF6D141A</color>
+    <string name="product_hamburg_akn" translatable="false">AKN</string>
+
+    <color name="profile_vienna">#FF240C4B</color>
+    <color name="profile_vienna_light">#FF311958</color>
+    <color name="profile_vienna_dark">#FF17003E</color>
+
+    <color name="profile_zurich">#FF2D327D</color>
+    <color name="profile_zurich_light">#FF3A3F8A</color>
+    <color name="profile_zurich_dark">#FF141964</color>
+
+    <color name="profile_rheinruhr">#FF24613e</color>
+    <color name="profile_rheinruhr_light">#FF316E4B</color>
+    <color name="profile_rheinruhr_dark">#FF175431</color>
+
+    <color name="product_verkehrsrot">#E30613</color>
+    <color name="product_generic_suburban">#FF006F35</color>
+    <color name="product_text_color_light">@android:color/black</color>
+
+    <!--<color name="product_frankfurt_regional">	#FF000000</color>
+    <color name="product_frankfurt_subway">	    #FF0070BA</color>
+    <color name="product_frankfurt_tram">	    #FFF36F21</color>
+    <color name="product_frankfurt_bus">	    #FFA2238E</color>
+
+    <color name="product_berlin_regional">	#FFDA251D</color>
+    <color name="product_berlin_subway">	#FF0664AB</color>
+    <color name="product_berlin_tram">	    #FFCC0000</color>
+    <color name="product_berlin_bus">	    #FFA3007C</color>
+    <color name="product_berlin_ferry">	    #FF0080C0</color>
+
+    <color name="product_hamburg_regional">	#FF000000</color>
+    <color name="product_hamburg_akn">	    #FFF68712</color>
+    <color name="product_hamburg_bus">	    #FFED0020</color>
+    <color name="product_hamburg_ferry">	#FF049ACC</color>
+
+    <color name="product_munich_regional">	#FF36397F</color>
+    <color name="product_munich_subway">	#FF0068B0</color>
+    <color name="product_munich_tram">	    #FFD82020</color>
+    <color name="product_munich_bus">	    #FF00586A</color>
+    <color name="product_munich_mbus">	    #FFE4672F</color>
+    <color name="product_munich_xbus">	    #FF4D9380</color>
+    <color name="product_munich_nbus">	    #FF000000</color>
+    <color name="product_munich_nbus_text">	#FFFBBB11</color>
+
+    <color name="product_stuttgart_bus">	#FFEC2B26</color>
+
+    <color name="product_vienna_suburban_train">	#FF0097D9</color>
+    <color name="product_vienna_subway">	        #FF0081C9</color>
+    <color name="product_vienna_tram">	            #FFC00D0E</color>
+    <color name="product_vienna_bus">	            #FF112A5D</color>
+
+    <color name="product_zurich_generic">	#FF2D327D</color>
+
+    <color name="product_rheinruhr_regional_train">	    #FF393536</color>
+    <color name="product_rheinruhr_tram">	            #FF008FCF</color>
+    <color name="product_rheinruhr_suspension_rail">	#FF4896d2</color>
+
+    <color name="product_frankfurt_suburban_line_s1">	#FF0095D9</color>
+    <color name="product_frankfurt_suburban_line_s2">	#FFEE1D23</color>
+    <color name="product_frankfurt_suburban_line_s3">	#FF01A896</color>
+    <color name="product_frankfurt_suburban_line_s4">	#FFFFCA0A</color>
+    <color name="product_frankfurt_suburban_line_s5">	#FF955B36</color>
+    <color name="product_frankfurt_suburban_line_s6">	#FFF57921</color>
+    <color name="product_frankfurt_suburban_line_s7">	#FF20543E</color>
+    <color name="product_frankfurt_suburban_line_s8">	#FF8CC63E</color>
+    <color name="product_frankfurt_suburban_line_s9">	#FF902690</color>
+
+    <color name="product_frankfurt_subway_line_u1">	#FFA5061C</color>
+    <color name="product_frankfurt_subway_line_u2">	#FF12AC5D</color>
+    <color name="product_frankfurt_subway_line_u3">	#FF485296</color>
+    <color name="product_frankfurt_subway_line_u4">	#FFE13885</color>
+    <color name="product_frankfurt_subway_line_u5">	#FF237542</color>
+    <color name="product_frankfurt_subway_line_u6">	#FF208DCC</color>
+    <color name="product_frankfurt_subway_line_u7">	#FFDE9206</color>
+    <color name="product_frankfurt_subway_line_u8">	#FFBF66A1</color>
+    <color name="product_frankfurt_subway_line_u9">	#FFE5C001</color>
+
+    <color name="product_frankfurt_tram_line_11">	#FF8781BD</color>
+    <color name="product_frankfurt_tram_line_12">	#FFE8B809</color>
+    <color name="product_frankfurt_tram_line_14">	#FF00A6E0</color>
+    <color name="product_frankfurt_tram_line_15">	#FFF58220</color>
+    <color name="product_frankfurt_tram_line_16">	#FF4CB848</color>
+    <color name="product_frankfurt_tram_line_17">	#FFEE1E24</color>
+    <color name="product_frankfurt_tram_line_18">	#FF18469D</color>
+    <color name="product_frankfurt_tram_line_19">	#FF77CCD0</color>
+    <color name="product_frankfurt_tram_line_20">	#FF939598</color>
+    <color name="product_frankfurt_tram_line_21">	#FFF392BC</color>
+
+    <color name="product_frankfurt_xbus_line_x17">	#FFDCA327</color>
+    <color name="product_frankfurt_xbus_line_x19">	#FF132759</color>
+    <color name="product_frankfurt_xbus_line_x26">	#FF006441</color>
+    <color name="product_frankfurt_xbus_line_x27">	#FFBE7332</color>
+    <color name="product_frankfurt_xbus_line_x57">	#FF00BEC4</color>
+    <color name="product_frankfurt_xbus_line_x64">	#FFE7792B</color>
+    <color name="product_frankfurt_xbus_line_x83">	#FFB41669</color>
+    <color name="product_frankfurt_xbus_line_x97">	#FF84BF41</color>
+
+    <color name="product_frankfurt_xbus_line_x33">	#FF292D78</color>
+    <color name="product_frankfurt_xbus_line_x37">	#FF3F7183</color>
+    <color name="product_frankfurt_xbus_line_x38">	#FFE05656</color>
+    <color name="product_frankfurt_xbus_line_x39">	#FFAD703F</color>
+    <color name="product_frankfurt_xbus_line_x40">	#FF40B075</color>
+    <color name="product_frankfurt_xbus_line_x41">	#FFA7A329</color>
+    <color name="product_frankfurt_xbus_line_x71">	#FF009C7F</color>
+    <color name="product_frankfurt_xbus_line_x72">	#FFD92053</color>
+    <color name="product_frankfurt_xbus_line_x74">	#FFD8232A</color>
+    <color name="product_frankfurt_xbus_line_x76">	#FF4A4562</color>
+    <color name="product_frankfurt_xbus_line_x78">	#FF00B0DE</color>
+    <color name="product_frankfurt_xbus_line_x79">	#FF00656F</color>
+    <color name="product_frankfurt_xbus_line_x89">	#FF7F78AB</color>
+    <color name="product_frankfurt_xbus_line_x93">	#FF815267</color>
+
+
+    <color name="product_berlin_suburban_line_s1">  #FFEB588F</color>
+    <color name="product_berlin_suburban_line_s2">  #FF047939</color>
+    <color name="product_berlin_suburban_line_s25"> #FF047939</color>
+    <color name="product_berlin_suburban_line_s26">	#FF047939</color>
+    <color name="product_berlin_suburban_line_s3">	#FF0A4B9A</color>
+    <color name="product_berlin_suburban_line_s41">	#FFAA3C1F</color>
+    <color name="product_berlin_suburban_line_s42">	#FFBA622D</color>
+    <color name="product_berlin_suburban_line_s45">	#FFCA8539</color>
+    <color name="product_berlin_suburban_line_s46">	#FFCA8539</color>
+    <color name="product_berlin_suburban_line_s47">	#FFCA8539</color>
+    <color name="product_berlin_suburban_line_s5">	#FFEA561C</color>
+    <color name="product_berlin_suburban_line_s7">	#FF764D9A</color>
+    <color name="product_berlin_suburban_line_s75">	#FF764D9A</color>
+    <color name="product_berlin_suburban_line_s8">	#FF4FA433</color>
+    <color name="product_berlin_suburban_line_s85">	#FF4FA433</color>
+    <color name="product_berlin_suburban_line_s9">	#FF951732</color>
+
+    <color name="product_berlin_subway_line_u1">	#FF54A821</color>
+    <color name="product_berlin_subway_line_u2">	#FFFD3300</color>
+    <color name="product_berlin_subway_line_u3">	#FF009277</color>
+    <color name="product_berlin_subway_line_u4">	#FFFDD802</color>
+    <color name="product_berlin_subway_line_u5">	#FF673019</color>
+    <color name="product_berlin_subway_line_u6">	#FF73569C</color>
+    <color name="product_berlin_subway_line_u7">	#FF3790C0</color>
+    <color name="product_berlin_subway_line_u8">	#FF0C3C84</color>
+    <color name="product_berlin_subway_line_u9">	#FFFD7301</color>
+
+    <color name="product_berlin_tram_line_m1">  #FF63B8E9</color>
+    <color name="product_berlin_tram_line_m2">  #FF79BA28</color>
+    <color name="product_berlin_tram_line_m4">  #FFCA1114</color>
+    <color name="product_berlin_tram_line_m5">  #FFC7893A</color>
+    <color name="product_berlin_tram_line_m6">  #FF005595</color>
+    <color name="product_berlin_tram_line_m8">  #FFED7103</color>
+    <color name="product_berlin_tram_line_m10"> #FF017A3C</color>
+    <color name="product_berlin_tram_line_m13"> #FF00A092</color>
+    <color name="product_berlin_tram_line_m17"> #FFA64229</color>
+    <color name="product_berlin_tram_line_12">  #FF8770A9</color>
+    <color name="product_berlin_tram_line_16">  #FF007EA9</color>
+    <color name="product_berlin_tram_line_18">  #FFD7AC01</color>
+    <color name="product_berlin_tram_line_21">  #FFBC90C0</color>
+    <color name="product_berlin_tram_line_27">  #FFC96218</color>
+    <color name="product_berlin_tram_line_37">  #FFA6412A</color>
+    <color name="product_berlin_tram_line_50">  #FFEA9000</color>
+    <color name="product_berlin_tram_line_60">  #FF009BD8</color>
+    <color name="product_berlin_tram_line_61">  #FFE30612</color>
+    <color name="product_berlin_tram_line_62">  #FF00522E</color>
+    <color name="product_berlin_tram_line_63">  #FFEC7103</color>
+    <color name="product_berlin_tram_line_67">  #FFDD6BA5</color>
+    <color name="product_berlin_tram_line_68">  #FF65B32E</color>
+
+    <color name="product_munich_subway_line_u1">	#FF52822F</color>
+    <color name="product_munich_subway_line_u2">	#FFC20831</color>
+    <color name="product_munich_subway_line_u3">	#FFEC6725</color>
+    <color name="product_munich_subway_line_u4">	#FF00A984</color>
+    <color name="product_munich_subway_line_u5">	#FFBC7A00</color>
+    <color name="product_munich_subway_line_u6">	#FF0065AE</color>
+
+    <color name="product_munich_tram_line_12">	#FF903F97</color>
+    <color name="product_munich_tram_line_15">	#FFF48F99</color>
+    <color name="product_munich_tram_line_16">	#FF006CB3</color>
+    <color name="product_munich_tram_line_17">	#FF875A46</color>
+    <color name="product_munich_tram_line_18">	#FF20B14A</color>
+    <color name="product_munich_tram_line_19">	#FFEE1C25</color>
+    <color name="product_munich_tram_line_20">	#FF16C0E9</color>
+    <color name="product_munich_tram_line_21">	#FFBB8DCD</color>
+    <color name="product_munich_tram_line_23">	#FFB3D235</color>
+    <color name="product_munich_tram_line_25">	#FFF48F99</color>
+    <color name="product_munich_tram_line_27">	#FFFBA61C</color>
+    <color name="product_munich_tram_line_28">	#FFFBA61C</color>
+    <color name="product_munich_tram_line_29">	#FFEE1C25</color>
+
+    <color name="product_munich_suburban_line_s1">	    #FF16C0E9</color>
+    <color name="product_munich_suburban_line_s2">	    #FF71BF44</color>
+    <color name="product_munich_suburban_line_s3">	    #FF7B107D</color>
+    <color name="product_munich_suburban_line_s4">	    #FFEE1C25</color>
+    <color name="product_munich_suburban_line_s6">	    #FF008A51</color>
+    <color name="product_munich_suburban_line_s7">	    #FF963833</color>
+    <color name="product_munich_suburban_line_s8">	    #FF000000</color>
+    <color name="product_munich_suburban_line_s8_text">	#FFFFCB06</color>
+
+    <color name="product_stuttgart_suburban_line_s1">	#FF60A92C</color>
+    <color name="product_stuttgart_suburban_line_s2">	#FFE3051B</color>
+    <color name="product_stuttgart_suburban_line_s3">	#FFEF7D00</color>
+    <color name="product_stuttgart_suburban_line_s4">	#FF005DA9</color>
+    <color name="product_stuttgart_suburban_line_s5">	#FF009ED4</color>
+    <color name="product_stuttgart_suburban_line_s6">	#FF875300</color>
+    <color name="product_stuttgart_suburban_line_s60">	#FF969200</color>
+
+    <color name="product_hamburg_suburban_line_s1">	#FF00962C</color>
+    <color name="product_hamburg_suburban_line_s2">	#FFb41439</color>
+    <color name="product_hamburg_suburban_line_s3">	#FF54216E</color>
+
+    <color name="product_hamburg_subway_line_u1">	#FF005AA4</color>
+    <color name="product_hamburg_subway_line_u2">	#FFED0020</color>
+    <color name="product_hamburg_subway_line_u3">	#FFFFD600</color>
+    <color name="product_hamburg_subway_line_u4">	#FF008B8F</color>
+
+    <color name="product_vienna_subway_line_main">	    #E987A0</color>
+    <color name="product_vienna_suburban_train_line_s45">	#B9D137</color>
+
+    <color name="product_vienna_subway_line_u1">	#D8232A</color>
+    <color name="product_vienna_subway_line_u2">	#945E98</color>
+    <color name="product_vienna_subway_line_u3">	#E7792B</color>
+    <color name="product_vienna_subway_line_u4">	#009949</color>
+    <color name="product_vienna_subway_line_u6">	#865E3B</color>-->
+
+</resources>

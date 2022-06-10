@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.Sequence.BackdropField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp">
+
+    <TextView
+        android:id="@+id/location"
+        style="@style/Widget.Sequence.TextView.BackdropField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="@string/tn_trips_location"
+        tools:drawableStart="@drawable/ic_origin_24dp"
+        tools:hint="Choose Origin" />
+
+</de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame>

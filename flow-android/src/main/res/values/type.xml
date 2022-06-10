@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Sequence.Headline1" parent="TextAppearance.MaterialComponents.Headline1" />
+
+    <style name="TextAppearance.Sequence.Headline2" parent="TextAppearance.MaterialComponents.Headline2" />
+
+    <style name="TextAppearance.Sequence.Headline3" parent="TextAppearance.MaterialComponents.Headline3" />
+
+    <style name="TextAppearance.Sequence.Headline4" parent="TextAppearance.MaterialComponents.Headline4" />
+
+    <style name="TextAppearance.Sequence.Headline5" parent="TextAppearance.MaterialComponents.Headline5" />
+
+    <style name="TextAppearance.Sequence.Headline6" parent="TextAppearance.MaterialComponents.Headline6" />
+
+    <style name="TextAppearance.Sequence.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1" />
+
+    <style name="TextAppearance.Sequence.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Body1" parent="TextAppearance.MaterialComponents.Body1" />
+
+    <style name="TextAppearance.Sequence.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Button" parent="TextAppearance.MaterialComponents.Button" />
+
+    <style name="TextAppearance.Sequence.Caption" parent="TextAppearance.MaterialComponents.Caption" />
+
+    <style name="TextAppearance.Sequence.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- MUC -->
+
+    <style name="TextAppearance.Sequence.Headline1.Munich" parent="TextAppearance.Sequence.Headline1">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline2.Munich" parent="TextAppearance.Sequence.Headline2">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline3.Munich" parent="TextAppearance.Sequence.Headline3">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline4.Munich" parent="TextAppearance.Sequence.Headline4">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline5.Munich" parent="TextAppearance.Sequence.Headline5">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline6.Munich" parent="TextAppearance.Sequence.Headline6">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Subtitle1.Munich" parent="TextAppearance.Sequence.Subtitle1">
+        <item name="fontFamily">@font/munich_medium</item>
+        <item name="android:fontFamily">@font/munich_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Subtitle2.Munich" parent="TextAppearance.Sequence.Subtitle2">
+        <item name="fontFamily">@font/munich_medium</item>
+        <item name="android:fontFamily">@font/munich_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Body1.Munich" parent="TextAppearance.Sequence.Body1">
+        <item name="fontFamily">@font/munich_medium</item>
+        <item name="android:fontFamily">@font/munich_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Body2.Munich" parent="TextAppearance.Sequence.Body2">
+        <item name="fontFamily">@font/munich_medium</item>
+        <item name="android:fontFamily">@font/munich_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Button.Munich" parent="TextAppearance.Sequence.Button">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Caption.Munich" parent="TextAppearance.Sequence.Caption">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Overline.Munich" parent="TextAppearance.Sequence.Overline">
+        <item name="fontFamily">@font/munich_bold</item>
+        <item name="android:fontFamily">@font/munich_bold</item>
+    </style>
+
+    <!-- BLN -->
+
+    <style name="TextAppearance.Sequence.Headline1.Berlin" parent="TextAppearance.Sequence.Headline1">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline2.Berlin" parent="TextAppearance.Sequence.Headline2">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline3.Berlin" parent="TextAppearance.Sequence.Headline3">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline4.Berlin" parent="TextAppearance.Sequence.Headline4">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline5.Berlin" parent="TextAppearance.Sequence.Headline5">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline6.Berlin" parent="TextAppearance.Sequence.Headline6">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Subtitle1.Berlin" parent="TextAppearance.Sequence.Subtitle1">
+        <item name="fontFamily">@font/berlin_medium</item>
+        <item name="android:fontFamily">@font/berlin_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Subtitle2.Berlin" parent="TextAppearance.Sequence.Subtitle2">
+        <item name="fontFamily">@font/berlin_medium</item>
+        <item name="android:fontFamily">@font/berlin_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Body1.Berlin" parent="TextAppearance.Sequence.Body1">
+        <item name="fontFamily">@font/berlin_medium</item>
+        <item name="android:fontFamily">@font/berlin_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Body2.Berlin" parent="TextAppearance.Sequence.Body2">
+        <item name="fontFamily">@font/berlin_medium</item>
+        <item name="android:fontFamily">@font/berlin_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Button.Berlin" parent="TextAppearance.Sequence.Button">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Caption.Berlin" parent="TextAppearance.Sequence.Caption">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Overline.Berlin" parent="TextAppearance.Sequence.Overline">
+        <item name="fontFamily">@font/berlin_bold</item>
+        <item name="android:fontFamily">@font/berlin_bold</item>
+    </style>
+
+    <!-- FFM -->
+
+    <style name="TextAppearance.Sequence.Headline1.Frankfurt" parent="TextAppearance.Sequence.Headline1">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline2.Frankfurt" parent="TextAppearance.Sequence.Headline2">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline3.Frankfurt" parent="TextAppearance.Sequence.Headline3">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline4.Frankfurt" parent="TextAppearance.Sequence.Headline4">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline5.Frankfurt" parent="TextAppearance.Sequence.Headline5">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Headline6.Frankfurt" parent="TextAppearance.Sequence.Headline6">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Subtitle1.Frankfurt" parent="TextAppearance.Sequence.Subtitle1">
+        <item name="fontFamily">@font/frankfurt_medium</item>
+        <item name="android:fontFamily">@font/frankfurt_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Subtitle2.Frankfurt" parent="TextAppearance.Sequence.Subtitle2">
+        <item name="fontFamily">@font/frankfurt_medium</item>
+        <item name="android:fontFamily">@font/frankfurt_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Body1.Frankfurt" parent="TextAppearance.Sequence.Body1">
+        <item name="fontFamily">@font/frankfurt_medium</item>
+        <item name="android:fontFamily">@font/frankfurt_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Body2.Frankfurt" parent="TextAppearance.Sequence.Body2">
+        <item name="fontFamily">@font/frankfurt_medium</item>
+        <item name="android:fontFamily">@font/frankfurt_medium</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Button.Frankfurt" parent="TextAppearance.Sequence.Button">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Caption.Frankfurt" parent="TextAppearance.Sequence.Caption">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Overline.Frankfurt" parent="TextAppearance.Sequence.Overline">
+        <item name="fontFamily">@font/frankfurt_bold</item>
+        <item name="android:fontFamily">@font/frankfurt_bold</item>
+    </style>
+
+</resources>

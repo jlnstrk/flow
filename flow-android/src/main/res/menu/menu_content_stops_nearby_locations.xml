@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_tune"
+        android:icon="@drawable/ic_filter_list_24dp"
+        android:title="@string/action_tune_search"
+        app:iconTint="?attr/colorPrimary"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_change_view"
+        android:icon="@drawable/ic_view_rows_short_24dp"
+        android:title="@string/action_change_view"
+        app:iconTint="?attr/colorPrimary"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_locate"
+        android:icon="@drawable/ic_my_location_24dp"
+        android:title="@string/action_refresh_location"
+        app:iconTint="?attr/colorPrimary"
+        app:showAsAction="ifRoom" />
+
+</menu>

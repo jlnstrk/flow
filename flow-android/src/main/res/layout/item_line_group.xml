@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:minHeight="56dp">
+
+    <de.julianostarek.flow.ui.common.view.LineGroupView
+        android:id="@+id/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="?attr/keyline"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="?attr/keyline"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/num_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="?attr/keyline"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+</FrameLayout>

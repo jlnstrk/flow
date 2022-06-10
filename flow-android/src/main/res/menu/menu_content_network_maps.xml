@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter_list_24dp"
+        android:title="@string/action_filter_results"
+        app:iconTint="?attr/colorPrimary"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh_24dp"
+        android:title="@string/action_refresh_results"
+        app:iconTint="?attr/colorPrimary"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,150 @@
+<resources>
+
+    <style name="Widget.Sequence.Toolbar.Button.Navigation.Background" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">?attr/colorOnPrimarySurface</item>
+    </style>
+
+    <style name="Widget.Sequence.Toolbar.Button.Navigation.Surface" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Caption.Primary" parent="TextAppearance.Sequence.Caption">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Sequence.Tab" parent="TextAppearance.Sequence.Button">
+        <!--<item name="fontFamily">@font/rubik_bold</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>-->
+    </style>
+
+    <style name="Widget.Sequence.TimePicker" parent="ThemeOverlay.MaterialComponents">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Sequence.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Sequence.ImageButton.Icon" parent="Widget.AppCompat.Toolbar.Button.Navigation" />
+
+    <style name="Widget.Sequence.ImageButton.Icon.Circle" parent="Widget.AppCompat.ImageButton">
+        <item name="android:padding">8dp</item>
+        <item name="android:minWidth">40dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:background">@drawable/bg_backdrop_field_round</item>
+    </style>
+
+    <style name="Base.Widget.Sequence.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@null</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabIndicatorGravity">center</item>
+        <item name="tabInlineLabel">true</item>
+        <item name="tabRippleColor">@null</item>
+        <item name="indicatorColor">@null</item>
+        <item name="tabIndicatorColor">@null</item>
+    </style>
+
+    <style name="Widget.Sequence.TabLayout" parent="Base.Widget.Sequence.TabLayout">
+        <item name="tabIndicator">@drawable/tab_indicator_solid</item>
+        <item name="tabTextColor">@color/tab_text_solid</item>
+        <item name="tabIconTint">@color/tab_text_solid</item>
+    </style>
+
+    <style name="Widget.Sequence.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="rippleColor">?attr/colorPrimary</item>
+        <item name="iconTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Sequence.Button.Outlined.TextColor" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">?colorControlHighlight</item>
+        <item name="rippleColor">?colorControlHighlight</item>
+        <item name="iconTint">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Sequence.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="elevation">22dp</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.Sequence" />
+
+    <style name="Widget.Sequence.TextView.BackdropField" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+        <item name="drawableTint">?attr/colorOnPrimaryLightSurfaceLight</item>
+    </style>
+
+    <style name="Widget.Sequence.BackdropField">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/bg_backdrop_field_rectangle</item>
+    </style>
+
+    <style name="Widget.Sequence.AppBarLayout.ForegroundLayer" parent="Widget.MaterialComponents.AppBarLayout.Surface">
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.Sequence.AppBarLayout.ForegroundLayer
+        </item>
+    </style>
+
+    <style name="Widget.Sequence.Toolbar.ContentLayer" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:layout_height">@dimen/content_layer_app_bar_size</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="contentInsetStart">24dp</item>
+        <item name="titleTextAppearance">?attr/textAppearanceSubtitle2</item>
+        <item name="titleTextColor">?attr/colorOnSurface</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Widget.Sequence.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.PrimarySurface" />
+
+    <style name="Widget.Sequence.Preference" parent="PreferenceThemeOverlay">
+        <item name="android:tint">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Widget.Sequence.ProgressIndicator.ContentLayer" parent="Widget.MaterialComponents.LinearProgressIndicator">
+        <item name="android:indeterminate">true</item>
+        <item name="android:visibility">invisible</item>
+        <item name="indicatorDirectionLinear">startToEnd</item>
+        <item name="showAnimationBehavior">outward</item>
+    </style>
+
+    <style name="Widget.Sequence.ProgressIndicator.ContentLayer.Load" parent="Widget.Sequence.ProgressIndicator.ContentLayer">
+        <item name="hideAnimationBehavior">none</item>
+        <item name="trackCornerRadius">2dp</item>
+    </style>
+
+    <style name="Widget.Sequence.ProgressIndicator.ContentLayer.Refresh" parent="Widget.Sequence.ProgressIndicator.ContentLayer">
+        <item name="hideAnimationBehavior">inward</item>
+    </style>
+
+    <style name="Widget.Sequence.DragHandle" parent="">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/ic_bottom_sheet_drag_handle</item>
+    </style>
+
+    <style name="Widget.TimeView.Countdown" parent="">
+        <item name="displayNear">relative</item>
+        <item name="displayDistant">absolute</item>
+        <item name="displayMultiline">true</item>
+        <item name="captionTextAppearance">?attr/textAppearanceSubtitle2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">-2dp</item>
+        <item name="android:minWidth">40dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+    </style>
+
+</resources>

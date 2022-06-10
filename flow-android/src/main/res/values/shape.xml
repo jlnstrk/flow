@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearance.Sequence.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/shape_large_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.Sequence.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/shape_medium_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.Sequence.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/shape_small_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Sequence.MapForeground" parent="ShapeAppearanceOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Sequence.AppBarLayout.ForegroundLayer" parent="ShapeAppearanceOverlay">
+        <item name="elevationOverlayEnabled">true</item>
+    </style>
+
+</resources>

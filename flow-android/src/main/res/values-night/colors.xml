@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar_overlay_dark">#33000000</color>
+
+
+    <color name="realtime_early">#FFB24A</color>
+    <color name="realtime_on_time">#76D37A</color>
+    <color name="realtime_delayed">#FF6D63</color>
+
+</resources>

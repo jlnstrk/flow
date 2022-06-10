@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExpandMoreTextView">
+        <attr name="indicatorGravity" format="enum">
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="keyline" format="dimension" />
+    <attr name="keylinePlus24dp" format="dimension" />
+    <attr name="keylinePlus56dp" format="dimension" />
+    <attr name="keylinePlus112dp" format="dimension" />
+
+    <attr name="textAppearanceTab" format="reference" />
+
+    <attr name="colorSurfaceLight" format="color|reference" />
+    <attr name="colorPrimaryLight" format="color|reference" />
+    <attr name="colorPrimaryLightSurfaceLight" format="color|reference" />
+    <attr name="colorOnPrimaryLightSurfaceLight" format="color|reference" />
+
+    <!-- primary when light, on secondary when dark -->
+    <attr name="colorTabIndicator" format="color|reference" />
+    <attr name="colorTabIndicatorInverse" format="color|reference" />
+
+    <attr name="colorLogoDb" format="color|reference" />
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="sequential">
+
+    <transitionSet android:transitionOrdering="together">
+
+        <slide
+            android:duration="@android:integer/config_mediumAnimTime"
+            android:interpolator="@android:interpolator/decelerate_quad"
+            android:slideEdge="bottom">
+            <targets>
+                <target android:targetName="@string/tn_backdrop_field_1" />
+                <target android:targetName="@string/tn_backdrop_field_2" />
+                <target android:targetName="@string/tn_backdrop_field_3" />
+                <target android:targetName="@string/tn_backdrop_field_4" />
+                <target android:targetName="@string/tn_backdrop_field_5" />
+                <target android:targetName="@string/tn_backdrop_field_6" />
+            </targets>
+        </slide>
+
+        <transitionSet android:startDelay="50">
+            <fade
+                android:duration="@android:integer/config_longAnimTime"
+                android:startDelay="0">
+                <targets>
+                    <target android:targetName="@string/tn_backdrop_field_1" />
+                </targets>
+            </fade>
+
+            <fade
+                android:duration="@android:integer/config_longAnimTime"
+                android:startDelay="50">
+                <targets>
+                    <target android:targetName="@string/tn_backdrop_field_2" />
+                </targets>
+            </fade>
+
+            <fade
+                android:duration="@android:integer/config_longAnimTime"
+                android:startDelay="100">
+                <targets>
+                    <target android:targetName="@string/tn_backdrop_field_3" />
+                </targets>
+            </fade>
+
+            <fade
+                android:duration="@android:integer/config_longAnimTime"
+                android:startDelay="150">
+                <targets>
+                    <target android:targetName="@string/tn_backdrop_field_4" />
+                </targets>
+            </fade>
+
+            <fade
+                android:duration="@android:integer/config_longAnimTime"
+                android:startDelay="200">
+                <targets>
+                    <target android:targetName="@string/tn_backdrop_field_5" />
+                </targets>
+            </fade>
+
+            <fade
+                android:duration="@android:integer/config_longAnimTime"
+                android:startDelay="250">
+                <targets>
+                    <target android:targetName="@string/tn_backdrop_field_6" />
+                </targets>
+            </fade>
+        </transitionSet>
+
+    </transitionSet>
+
+    <fade android:duration="@android:integer/config_mediumAnimTime">
+
+        <targets>
+            <target android:targetName="@string/tn_global_settings" />
+            <target android:targetName="@string/tn_section_settings" />
+        </targets>
+
+    </fade>
+
+</transitionSet>

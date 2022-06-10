@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="action_add_via">Add via</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_change_view">Change view</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_current_time">Now</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_find_connections">Find connections</string>
+    <string name="action_more_information">More information</string>
+    <string name="action_my_location">My location</string>
+    <string name="action_refresh_location">Refresh my location</string>
+    <string name="action_refresh_results">Refresh results</string>
+    <string name="action_return_trip">Return trip</string>
+    <string name="action_search">Search</string>
+    <string name="action_share_connection">Share this connection</string>
+    <string name="action_tune_search">Tune search</string>
+    <string name="action_filter_results">Filter results</string>
+    <string name="action_find_place">Find a place</string>
+
+    <string name="app_name" translatable="false">Sequence</string>
+
+    <plurals name="duration_hours_minutes">
+        <item quantity="one">%1$d hr %2$d min</item>
+        <item quantity="other">%1$d hrs %2$d min</item>
+    </plurals>
+    <string name="duration_minutes">%1$d min</string>
+
+    <string name="error_internal">An internal error occurred</string>
+    <string name="error_invalid_datetime">Date/time out of range</string>
+    <string name="error_invalid_destination">Invalid destination</string>
+    <string name="error_invalid_location">Invalid location</string>
+    <string name="error_invalid_origin">Invalid origin</string>
+    <string name="error_invalid_via">Invalid via</string>
+    <string name="error_origin_destination_identical">Origin and destination are identical</string>
+    <string name="error_too_close">Origin and destination are too close</string>
+    <string name="error_too_far_locations">There are no stations in your proximity</string>
+    <string name="error_too_far_departures">There are no departures in your proximity</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_offline_locations">Failed to load offline locations</string>
+
+    <string name="state_loading_journey_detail">Fetching detailed journey information…</string>
+    <string name="state_loading_departures_nearby">Looking for departures nearby…</string>
+    <string name="state_loading_locations_nearby">Looking for stations nearby…</string>
+    <string name="state_loading_routes">Fetching your recent routes…</string>
+    <string name="state_loading_station_board">Fetching station board…</string>
+    <string name="state_no_departures_nearby">There aren\'t any departures nearby</string>
+    <string name="state_no_device_location">Couldn\'t locate your device</string>
+    <string name="state_no_journey_detail">Couldn\'t get detailed journey information</string>
+    <string name="state_no_locations_nearby">There aren\'t any locations nearby</string>
+    <string name="state_no_routes">You haven\'t looked up any routes so far</string>
+    <string name="state_no_station_board">There\'s nothing on the station board at this time</string>
+    <string name="state_no_trips">Couldn\'t find any trips</string>
+    <string name="state_searching_locations">Finding relevant locations…</string>
+    <string name="state_searching_trips">Finding matching connections…</string>
+
+    <string name="mode_arrival_short">Arr</string>
+    <string name="mode_departure_short">Dep</string>
+
+    <string name="header_available_maps">Available maps</string>
+    <string name="header_choose_from_nearby_stations">Choose from nearby stations</string>
+    <string name="header_nearby">Nearby</string>
+    <string name="header_results">Results</string>
+    <string name="header_connections">Connections</string>
+    <string name="header_network_maps">Network maps</string>
+    <string name="header_lines_with_messages">Lines with status messages</string>
+    <string name="header_status_messages">Status messages</string>
+    <string name="header_options">Options</string>
+    <string name="header_recently_queried">Recently queried</string>
+    <string name="header_recently_used">Recently used</string>
+    <string name="header_station_board">Station board</string>
+    <string name="header_to">To %1$s</string>
+    <string name="header_messages_affecting">Messages • Line %1$s</string>
+    <string name="header_to_my_location">To my location</string>
+    <string name="header_journey_details">Journey details</string>
+
+    <string name="input_arrivals">Arrivals</string>
+    <string name="input_departures">Departures</string>
+    <string name="input_hint_choose_destination">Choose destination</string>
+    <string name="input_hint_choose_location">Choose location</string>
+    <string name="input_hint_choose_origin">Choose origin</string>
+    <string name="input_network_maps">Network maps</string>
+    <string name="input_now">Now</string>
+    <string name="input_all">All</string>
+    <string name="input_prefix_city">City</string>
+    <string name="input_prefix_at_location">At</string>
+    <string name="input_prefix_at_time">At</string>
+    <string name="input_prefix_via">Via</string>
+    <string name="input_prefix_and">And</string>
+    <string name="input_prefix_from_location">From</string>
+    <string name="input_prefix_from_time">From</string>
+    <string name="input_prefix_show">Show</string>
+    <string name="input_prefix_to_location">To</string>
+    <string name="input_status_messages">Status messages</string>
+
+    <string name="journey_cancelled">Cancelled</string>
+    <string name="journey_delayed">Delayed</string>
+    <plurals name="journey_delayed_hours_minutes">
+        <item quantity="one">Delayed %1$d hr %1$d min</item>
+        <item quantity="other">Delayed %1$d hrs %1$d min</item>
+    </plurals>
+    <string name="journey_delayed_minutes">Delayed %1$d min</string>
+    <string name="journey_early">Early</string>
+    <plurals name="journey_early_hours_minutes">
+        <item quantity="one">Early %1$d hr %1$d min</item>
+        <item quantity="other">Early %1$d hrs %1$d min</item>
+    </plurals>
+    <string name="journey_early_minutes">Early %1$d min</string>
+    <string name="journey_on_time">On time</string>
+    <string name="journey_scheduled">Scheduled</string>
+
+    <string name="label_choose_station">Choose station</string>
+    <string name="label_network_plans">Network plans</string>
+
+    <string name="mode_walk_km_min">Walk %1$s • %2$s min</string>
+    <string name="mode_bike_km_min">Ride the bike for %1$s • %2$d min</string>
+    <string name="mode_car_km_min">Ride a car for %1$s • %2$d min</string>
+    <string name="mode_taxi_km_min">Take a taxi for %1$s • %2$d min</string>
+
+    <plurals name="leg_transfer_duration_hours">
+        <item quantity="one">Transfer • %1$d hr %2$d min</item>
+        <item quantity="other">Transfer • %1$d hrs %2$d min</item>
+    </plurals>
+    <string name="leg_transfer_duration_minutes">Transfer • %1$d min</string>
+
+    <string name="load_preceding">Load preceding trips</string>
+    <string name="load_succeeding">Load succeeding trips</string>
+
+    <string name="navigation_configuration_options">Configuration</string>
+    <string name="navigation_section_info">Info</string>
+    <string name="navigation_section_stops">Stops</string>
+    <string name="navigation_section_trips">Trips</string>
+
+    <string name="notice_filters_changed">Search options have changed</string>
+
+    <string name="platform_bus">Platform</string>
+    <string name="platform_rail">Platform</string>
+
+    <string name="product_at">At</string>
+    <string name="product_from">from</string>
+    <string name="product_in">In</string>
+
+    <string name="preference_category_general">General</string>
+    <string name="preference_category_trip_options">Trip configuration</string>
+    <string name="preference_title_network_profile">Network profile</string>
+    <string name="preference_title_walking_speed">Walking speed</string>
+    <string name="preference_title_changing_speed">Changing speed</string>
+    <string name="profile_munich">Munich</string>
+    <string name="profile_berlin">Berlin</string>
+    <string name="profile_frankfurt">Frankfurt</string>
+    <string name="profile_hamburg">Hamburg</string>
+    <string name="profile_vienna">Vienna</string>
+    <string name="profile_rheinruhr">Rhein-Ruhr region</string>
+    <string-array name="preference_entries_network_profile">
+        <item>@string/profile_munich</item>
+        <item>@string/profile_berlin</item>
+        <item>@string/profile_frankfurt</item>
+        <item>@string/profile_hamburg</item>
+        <item>@string/profile_vienna</item>
+        <item>@string/profile_rheinruhr</item>
+    </string-array>
+    <string-array name="preference_entries_network_profile_values">
+        <item>MUNICH</item>
+        <item>BERLIN</item>
+        <item>FRANKFURT</item>
+        <item>HAMBURG</item>
+        <item>VIENNA</item>
+        <item>RHEIN_RUHR</item>
+    </string-array>
+    <string name="setting_slow">Slow</string>
+    <string name="setting_normal">Medium</string>
+    <string name="setting_fast">Fast</string>
+    <string-array name="preference_entries_speed">
+        <item>@string/setting_slow</item>
+        <item>@string/setting_normal</item>
+        <item>@string/setting_fast</item>
+    </string-array>
+    <string-array name="preference_entries_speed_values">
+        <item>SLOW</item>
+        <item>NORMAL</item>
+        <item>FAST</item>
+    </string-array>
+    <string name="setting_off">Off</string>
+    <string name="setting_on">On</string>
+    <string name="setting_follow_system">Follow system</string>
+    <string-array name="preference_entries_dark_mode">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+        <item>@string/setting_follow_system</item>
+    </string-array>
+    <string-array name="preference_entries_dark_mode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="preference_entries_start_page">
+        <item>@string/navigation_section_stops</item>
+        <item>@string/navigation_section_trips</item>
+        <item>@string/navigation_section_info</item>
+    </string-array>
+    <string-array name="preference_entries_start_page_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="station_distance_kilometers">%1$s km</string>
+    <string name="station_distance_meters">%1$d m</string>
+
+    <plurals name="stops">
+        <item quantity="one">%1$d stop</item>
+        <item quantity="other">%1$d stops</item>
+    </plurals>
+
+    <string name="time_in_min_break">%1$s\nmin</string>
+    <string name="time_in_min_space">%1$s min</string>
+    <string name="time_min_ago_break">%1$s\nmin ago</string>
+    <string name="time_min_ago_space">%1$s min ago</string>
+    <string name="time_now">Now</string>
+
+    <string-array name="trip_time_mode">
+        <item>Departure</item>
+        <item>Arrival</item>
+    </string-array>
+    <plurals name="trip_transfers">
+        <item quantity="one">%1$d transfer • %2$d minutes total</item>
+        <item quantity="other">%1$d transfers • %2$d minutes total</item>
+    </plurals>
+
+    <string name="via_wait_time">%1$d\nMIN</string>
+    <string name="header_filter_products">Filter products</string>
+    <string name="header_settings">Settings</string>
+    <string name="navigation_section_network">Net</string>
+    <string name="state_no_offline_locations">There are no saved locations yet</string>
+    <string name="state_loading_offline_locations">Loading saved locations…</string>
+    <string name="product_generic_sev">SEV</string>
+    <string name="product_generic_ast">Anruf-Sammel-Taxi</string>
+    <string name="product_hamburg_schnell_bus">SchnellBus</string>
+    <string name="product_hamburg_stadt_bus">StadtBus</string>
+    <string name="product_vienna_nightline">NightLine</string>
+</resources>

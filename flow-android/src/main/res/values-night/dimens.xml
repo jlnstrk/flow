@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_outline_stroke_width">2dp</dimen>
+
+    <dimen name="app_bar_layout_elevation">16dp</dimen>
+    <dimen name="content_layer_elevation">2dp</dimen>
+    <dimen name="footer_elevation">8dp</dimen>
+    <dimen name="fab_elevation">1dp</dimen>
+</resources>

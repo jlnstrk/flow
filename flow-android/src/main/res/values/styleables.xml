@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadStateIndicator">
+        <attr name="caption" format="string|reference" />
+        <attr name="captionEmptyState" format="string|reference" />
+        <attr name="captionColor" format="color|reference" />
+        <attr name="indeterminateColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BackdropMapView">
+        <attr name="mapUiPadding" format="dimension|reference" />
+        <attr name="mapContentPadding" format="dimension|reference" />
+        <attr name="topWindowHeight" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="StopView">
+        <attr name="stopType" format="enum">
+            <enum name="origin" value="0" />
+            <enum name="intermediate" value="1" />
+            <enum name="destination" value="2" />
+            <enum name="pass" value="3" />
+        </attr>
+        <attr name="stopColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TimeView">
+        <attr name="displayMultiline" format="boolean|reference" />
+        <attr name="displayNear" format="enum|reference">
+            <enum name="relative" value="0" />
+            <enum name="absolute" value="1" />
+            <enum name="absolute_relative" value="2" />
+            <enum name="absolute_absolute" value="3" />
+            <enum name="absolute_absolute_opt" value="4" />
+        </attr>
+        <attr name="displayDistant" format="enum|reference">
+            <enum name="relative" value="0" />
+            <enum name="absolute" value="1" />
+            <enum name="absolute_relative" value="2" />
+            <enum name="absolute_absolute" value="3" />
+            <enum name="absolute_absolute_opt" value="4" />
+        </attr>
+        <attr name="nowTextAppearance" format="reference" />
+        <attr name="relativeTextAppearance" format="reference" />
+        <attr name="captionTextAppearance" format="reference" />
+        <attr name="absoluteTextAppearance" format="reference" />
+    </declare-styleable>
+
+
+</resources>

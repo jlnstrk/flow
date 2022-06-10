@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="profile_munich">#ABC8FF</color>
+    <color name="profile_munich_light">#B8D5FF</color>
+    <color name="profile_munich_dark">#9EBBFB</color>
+
+    <color name="profile_berlin">#F0DE57</color>
+    <color name="profile_berlin_light">#FCEA63</color>
+    <color name="profile_berlin_dark">#E3D14A</color>
+
+    <color name="profile_frankfurt">#90DFE4</color>
+    <color name="profile_frankfurt_light">#9DECF1</color>
+    <color name="profile_frankfurt_dark">#83D2D7</color>
+
+    <color name="profile_hamburg">#EC9399</color>
+    <color name="profile_hamburg_light">#F9A0A6</color>
+    <color name="profile_hamburg_dark">#DF868C</color>
+
+    <color name="profile_vienna">#BDA5E4</color>
+    <color name="profile_vienna_light">#CAB2F1</color>
+    <color name="profile_vienna_dark">#B098D7</color>
+
+    <color name="profile_rheinruhr">#7DBA97</color>
+    <color name="profile_rheinruhr_light">#8AC7A4</color>
+    <color name="profile_rheinruhr_dark">#71AE8B</color>
+
+</resources>

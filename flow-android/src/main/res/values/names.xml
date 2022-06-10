@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- backdrop shared elements -->
+    <string name="tn_backdrop_field_1" translatable="false">tn_backdrop_field_1</string>
+    <string name="tn_backdrop_field_2" translatable="false">tn_backdrop_field_2</string>
+    <string name="tn_backdrop_field_3" translatable="false">tn_backdrop_field_3</string>
+    <string name="tn_backdrop_field_4" translatable="false">tn_backdrop_field_4</string>
+    <string name="tn_backdrop_field_5" translatable="false">tn_backdrop_field_5</string>
+    <string name="tn_backdrop_field_6" translatable="false">tn_backdrop_field_6</string>
+    <string name="tn_backdrop_field_arg" translatable="false">tn_backdrop_field_%1$d</string>
+
+    <!-- backdrop shared element children -->
+    <string name="tn_stops_location" translatable="false">stops_location</string>
+    <string name="tn_stops_mode" translatable="false">stops_mode</string>
+    <string name="tn_stops_time" translatable="false">stops_time</string>
+    <string name="tn_trips_location" translatable="false">trips_location</string>
+    <string name="tn_trips_wait_time" translatable="false">trips_wait_time</string>
+    <string name="tn_trips_time" translatable="false">trips_time</string>
+    <string name="tn_trips_time_mode" translatable="false">trips_time_mode</string>
+    <string name="tn_info_mode" translatable="false">info_mode</string>
+    <string name="tn_info_city" translatable="false">info_city</string>
+    <string name="tn_network_mode" translatable="false">network_mode</string>
+
+    <string name="tn_global_settings" translatable="false">global_settings</string>
+    <string name="tn_section_settings" translatable="false">section_settings</string>
+
+</resources>

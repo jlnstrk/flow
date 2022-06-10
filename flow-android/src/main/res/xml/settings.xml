@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="General"
+        app:initialExpandedChildrenCount="1">
+
+        <Preference
+            app:icon="@drawable/ic_network_profile_24dp"
+            app:key="network_profile"
+            app:title="@string/preference_title_network_profile" />
+
+        <SwitchPreference
+            app:defaultValue="false"
+            app:icon="@drawable/ic_locale_24dp"
+            app:key="override_locale"
+            app:title="Locale override" />
+
+        <DropDownPreference
+            app:icon="@drawable/ic_realtime_signal_24dp"
+            app:key="realtime_mode"
+            app:title="Realtime mode" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="User Interface">
+
+        <DropDownPreference
+            app:defaultValue="0"
+            app:entries="@array/preference_entries_start_page"
+            app:entryValues="@array/preference_entries_start_page_values"
+            app:icon="@drawable/ic_start_page_24dp"
+            app:key="start_page"
+            app:summary="%s"
+            app:title="Start page" />
+
+        <DropDownPreference
+            app:entries="@array/preference_entries_dark_mode"
+            app:entryValues="@array/preference_entries_dark_mode_values"
+            app:icon="@drawable/ic_dark_mode_24dp"
+            app:key="dark_mode"
+            app:summary="%s"
+            app:title="Use dark mode" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="More options">
+
+        <Preference
+            app:fragment="de.julianostarek.flow.ui.settings.StopsSettingsFragment"
+            app:icon="@drawable/ic_station_24dp"
+            app:summary="Here will be a summary"
+            app:title="Stops page" />
+
+        <Preference
+            app:fragment="de.julianostarek.flow.ui.settings.TripsSettingsFragment"
+            app:icon="@drawable/ic_origin_24dp"
+            app:summary="Individual sections, tariff info &amp; more"
+            app:title="Trips page" />
+
+        <Preference
+            app:fragment="de.julianostarek.flow.ui.settings.InfoSettingsFragment"
+            app:icon="@drawable/ic_state_info_24dp"
+            app:summary="Here will be a summary"
+            app:title="Info page" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

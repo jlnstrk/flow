@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame
+        android:id="@+id/mode_container"
+        style="@style/Widget.Sequence.BackdropField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:transitionName="@string/tn_backdrop_field_1">
+
+        <TextView
+            android:id="@+id/mode_text"
+            style="@style/Widget.Sequence.TextView.BackdropField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_network_maps"
+            android:transitionName="@string/tn_info_mode"
+            app:drawableStartCompat="@drawable/ic_network_map_24dp" />
+
+    </de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame>
+
+    <de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame
+        android:id="@+id/city_container"
+        style="@style/Widget.Sequence.BackdropField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:transitionName="@string/tn_backdrop_field_2">
+
+        <TextView
+            android:id="@+id/city_text"
+            style="@style/Widget.Sequence.TextView.BackdropField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City All"
+            android:transitionName="@string/tn_info_city"
+            app:drawableStartCompat="@drawable/ic_city_24dp" />
+
+    </de.julianostarek.flow.ui.common.view.base.VolatileTransitionFrame>
+
+    <LinearLayout
+        android:id="@+id/info_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:transitionGroup="true"
+        android:transitionName="@string/tn_section_settings">
+
+        <include layout="@layout/include_products_bar" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:dividerInsetEnd="24dp"
+            app:dividerInsetStart="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/settings"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/header_settings"
+            android:textColor="?attr/colorOnPrimaryLightSurfaceLight"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark"
+            app:backgroundTint="?attr/colorPrimaryLightSurfaceLight"
+            app:icon="@drawable/ic_settings_18dp"
+            app:iconGravity="textStart"
+            app:iconTint="?attr/colorOnPrimaryLightSurfaceLight" />
+
+    </LinearLayout>
+
+</LinearLayout>
