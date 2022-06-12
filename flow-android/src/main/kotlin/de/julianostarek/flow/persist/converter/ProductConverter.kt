@@ -5,17 +5,11 @@ import androidx.room.TypeConverter
 import de.jlnstrk.transit.common.model.TransportMode
 import de.jlnstrk.transit.common.model.ProductClass
 import de.jlnstrk.transit.common.model.ProductSet
+import de.julianostarek.flow.profile.FlowProduct
 import kotlin.reflect.KClass
 
 @ProvidedTypeConverter
-class ProductConverter(pClass: KClass<out Enum<*>>) {
-    private val pValues: Array<out Enum<*>> = pClass.java.enumConstants!!
-
-    init {
-        check(ProductClass::class.java.isAssignableFrom(pClass.java)) {
-            "Must be a subtype of TransportProduct, too"
-        }
-   }
+class ProductConverter(private val pValues: List<FlowProduct>) {
 
     @TypeConverter
     fun deserialize(mask: Int?): Set<ProductClass>? {
@@ -91,7 +85,7 @@ class ProductConverter(pClass: KClass<out Enum<*>>) {
         // Set profile product bits from left
         for (constant in pValues) {
             if (filter.contains(constant as ProductClass)) {
-                mask = mask or (Int.MIN_VALUE ushr constant.ordinal)
+                mask = mask or (Int.MIN_VALUE ushr (constant as Enum<*>).ordinal)
             }
         }
         return mask
@@ -106,7 +100,7 @@ class ProductConverter(pClass: KClass<out Enum<*>>) {
         }
         for (constant in pValues) {
             if (product == constant) {
-                return Int.MIN_VALUE ushr constant.ordinal
+                return Int.MIN_VALUE ushr (constant as Enum<*>).ordinal
             }
         }
         throw IllegalArgumentException()

@@ -14,8 +14,10 @@ fun Trip.formatContext(context: Context): CharSequence? {
     val reference = Clock.System.now()
     val firstTransportLeg = legs.find { it is Leg.Public } as Leg.Public? ?: return null
     val stationOriginOne = firstTransportLeg.departure
-    val stationOriginTwo =
-        firstTransportLeg.alternatives?.first()?.stops?.first() as Stop.Departure?
+    val stationOriginTwo = firstTransportLeg.alternatives
+        ?.firstOrNull()
+        ?.stops
+        ?.firstOrNull() as Stop.Departure?
     val originOneOffset = ((stationOriginOne.departureRealtime
         ?: stationOriginOne.departureScheduled) - reference).inWholeMinutes
     return buildSpannedString {

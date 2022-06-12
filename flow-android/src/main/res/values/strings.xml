@@ -18,7 +18,7 @@
     <string name="action_filter_results">Filter results</string>
     <string name="action_find_place">Find a place</string>
 
-    <string name="app_name" translatable="false">Sequence</string>
+    <string name="app_name" translatable="false">Flow</string>
 
     <plurals name="duration_hours_minutes">
         <item quantity="one">%1$d hr %2$d min</item>

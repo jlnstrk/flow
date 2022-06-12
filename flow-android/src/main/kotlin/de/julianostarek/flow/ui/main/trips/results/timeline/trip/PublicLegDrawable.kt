@@ -1,17 +1,21 @@
 package de.julianostarek.flow.ui.main.trips.results.timeline.trip
 
 import android.content.Context
-import android.graphics.*
+import android.graphics.Canvas
+import android.graphics.LinearGradient
+import android.graphics.Paint
+import android.graphics.Shader
 import android.graphics.drawable.Drawable
 import android.text.TextPaint
 import androidx.core.content.ContextCompat
+import de.jlnstrk.transit.common.model.Line
 import de.julianostarek.flow.profile.StyledProfile
 import de.julianostarek.flow.ui.component.linechip.LineChipDrawable
 import de.julianostarek.flow.util.context.styles
 import de.julianostarek.flow.util.graphics.findBalancedIconScale
 import de.julianostarek.flow.util.graphics.setBoundsScaledWidth
-import de.jlnstrk.transit.common.model.Line
 import de.julianostarek.flow.util.iconRawOrRegularResId
+import de.julianostarek.flow.util.iconResId
 import kotlin.math.max
 import kotlin.math.roundToInt
 
@@ -35,13 +39,13 @@ class PublicLegDrawable(
         context,
         productStyle.iconRawOrRegularResId(context)
     )!!
-    private val icon2: Drawable = ContextCompat.getDrawable(context, productStyle.iconRes.let { context.resources.getIdentifier(it, null, null) })!!
+    private val icon2: Drawable =
+        ContextCompat.getDrawable(context, productStyle.iconResId(context))!!
 
     private val chipHeightRequirement: Float = 16F.dp + LineChipDrawable.NOMINAL_HEIGHT_DP.dp
 
     // 8 + 8 + 24 + 8
     private val chipIconHeightRequirement: Float = 48F.dp + LineChipDrawable.NOMINAL_HEIGHT_DP.dp
-
 
 
     init {

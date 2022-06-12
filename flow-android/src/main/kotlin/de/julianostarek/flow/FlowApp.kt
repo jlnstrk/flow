@@ -8,6 +8,7 @@ import androidx.preference.PreferenceManager
 import com.google.android.material.resources.TextAppearance
 import com.google.firebase.FirebaseApp
 import de.julianostarek.flow.profile.FlowProfile
+import de.julianostarek.flow.profile.themeRes
 
 class FlowApp : Application() {
     lateinit var networkProfile: FlowProfile
@@ -25,6 +26,7 @@ class FlowApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        initKoin(this)
         FirebaseApp.initializeApp(this)
 
         val defaultPreferences = PreferenceManager.getDefaultSharedPreferences(this)

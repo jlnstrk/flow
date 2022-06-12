@@ -1,4 +1,6 @@
-package de.julianostarek.flow.provider.util
+package de.julianostarek.flow.provider.service
+
+import kotlin.jvm.JvmName
 
 class BiMap<A, B> {
     private val aToB: MutableMap<A, B> = HashMap()
@@ -14,5 +16,4 @@ class BiMap<A, B> {
 
     @JvmName("getB")
     operator fun get(b: B) = bToA[b]
-
 }

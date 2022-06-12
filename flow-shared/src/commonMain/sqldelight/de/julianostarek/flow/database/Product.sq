@@ -1,0 +1,7 @@
+CREATE TABLE product (
+    id INTEGER PRIMARY KEY,
+    profile TEXT,
+    profile_index INTEGER
+);
+
+CREATE UNIQUE INDEX product_unique ON product(profile, profile_index);

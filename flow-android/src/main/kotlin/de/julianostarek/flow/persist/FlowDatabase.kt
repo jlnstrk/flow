@@ -46,7 +46,7 @@ abstract class FlowDatabase : RoomDatabase() {
             profile: FlowProfile
         ): FlowDatabase {
             return instances.computeIfAbsent(profile.name) {
-                val mappingConverter = ProductConverter(profile.productType)
+                val mappingConverter = ProductConverter(profile.products)
                 Room.databaseBuilder(context, FlowDatabase::class.java, profile.name)
                     .addTypeConverter(mappingConverter)
                     .addCallback(this)

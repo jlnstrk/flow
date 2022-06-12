@@ -17,6 +17,7 @@ import com.google.android.material.color.MaterialColors
 import de.julianostarek.flow.R
 import de.julianostarek.flow.databinding.ItemNetworkProfileBinding
 import de.julianostarek.flow.profile.FlowProfile
+import de.julianostarek.flow.profile.themeRes
 import de.julianostarek.flow.ui.common.span.ProductIconSpan
 import de.julianostarek.flow.ui.common.viewholder.base.BindingViewHolder
 import de.julianostarek.flow.util.iconResId

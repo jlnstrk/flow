@@ -11,8 +11,22 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.google.android.gms.location.*
-import de.julianostarek.flow.provider.util.await
+import com.google.android.gms.tasks.Task
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlin.coroutines.resume
+import kotlin.coroutines.resumeWithException
+
+suspend fun <T> Task<T>.await(): T {
+    return suspendCancellableCoroutine { continuation ->
+        addOnSuccessListener {
+            continuation.resume(it)
+        }
+        addOnFailureListener {
+            continuation.resumeWithException(it)
+        }
+    }
+}
 
 class LocationSourceViewModel(application: Application) : AndroidViewModel(application) {
     val handler: Handler = Handler(Looper.getMainLooper())
@@ -27,7 +41,8 @@ class LocationSourceViewModel(application: Application) : AndroidViewModel(appli
     private val locationCallback: LocationCallback = object : LocationCallback() {
         override fun onLocationResult(result: LocationResult) {
             if (location.value == null
-                || result.lastLocation!!.distanceTo(location.value) >= MINIMUM_LOCATION_DISPLACEMENT) {
+                || result.lastLocation!!.distanceTo(location.value) >= MINIMUM_LOCATION_DISPLACEMENT
+            ) {
                 location.value = result.lastLocation
             }
         }

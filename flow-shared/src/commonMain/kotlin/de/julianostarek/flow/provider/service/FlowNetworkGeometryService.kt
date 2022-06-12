@@ -1,36 +1,35 @@
 package de.julianostarek.flow.provider.service
 
-import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.GeoPoint
-import de.julianostarek.flow.provider.util.await
 import de.jlnstrk.transit.common.model.*
 import de.jlnstrk.transit.common.response.NetworkGeometryData
 import de.jlnstrk.transit.common.response.base.ServiceResult
 import de.jlnstrk.transit.common.service.NetworkGeometryResult
 import de.jlnstrk.transit.common.service.NetworkGeometryService
+import de.julianostarek.flow.profile.FlowProfile
+import dev.gitlive.firebase.Firebase
+import dev.gitlive.firebase.firestore.firestore
 
-class SequenceNetworkGeometryService(
-    private val firestore: FirebaseFirestore,
-    private val profileName: String
+class FlowNetworkGeometryService(
+    private val profile: FlowProfile
 ) : NetworkGeometryService {
 
     override suspend fun networkGeometry(): NetworkGeometryResult {
         try {
-            val queryBuilder = firestore.collection("networks")
-                .document(profileName)
+            val queryBuilder = Firebase.firestore.collection("networks")
+                .document(profile.name.lowercase())
                 .collection("subway")
                 .get()
-                .await()
             return ServiceResult.success(
                 NetworkGeometryData(
                     DataHeader(),
                     mapOf(TransportMode.SUBWAY to queryBuilder.documents.map {
                         LineGeometry(
-                            it["lines"] as List<String>,
-                            Polyline((it["coordinates"] as List<GeoPoint>).map {
+                            it.get("lines"),
+                            Polyline((it.get<List<String>>("coordinates")).map {
+                                // TODO
                                 Coordinates(
-                                    it.latitude,
-                                    it.longitude
+                                    0.0, //it.latitude,
+                                    0.0 //it.longitude
                                 )
                             })
                         )
@@ -42,5 +41,4 @@ class SequenceNetworkGeometryService(
             return ServiceResult.noResult()
         }
     }
-
 }

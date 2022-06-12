@@ -1,0 +1,33 @@
+import de.julianostarek.flow.database.LocationType;
+
+CREATE TABLE location (
+    id INTEGER PRIMARY KEY,
+    provider_id INTEGER UNIQUE,
+    name TEXT,
+    place TEXT,
+    type TEXT AS LocationType
+);
+
+CREATE TABLE location_product(
+    location_id INTEGER NOT NULL,
+    product_id INTEGER NOT NULL,
+    PRIMARY KEY(location_id, product_id),
+    FOREIGN KEY (location_id) REFERENCES location(id) ON DELETE CASCADE,
+    FOREIGN KEY (product_id) REFERENCES product(id) ON DELETE CASCADE
+);
+
+CREATE VIEW LocationWithProducts AS
+SELECT *
+FROM location
+LEFT JOIN location_product ON location.id = location_product.location_id
+LEFT JOIN product ON location_product.product_id = product.id;
+
+selectLocationsByType:
+SELECT *
+FROM LocationWithProducts
+WHERE type = ?;
+
+selectOne:
+SELECT *
+FROM LocationWithProducts
+WHERE location_id = ?;

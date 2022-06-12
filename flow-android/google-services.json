@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "270523371132",
+    "project_id": "flow-transit",
+    "storage_bucket": "flow-transit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270523371132:android:32accdce97dcc9adc8c3f9",
+        "android_client_info": {
+          "package_name": "de.julianostarek.flow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270523371132-cqdesff6tbq09pp3e5a8q9t0j0dckidn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQrUo0EPvrVqIQOieo4-dW_4D5v6AiCtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270523371132-cqdesff6tbq09pp3e5a8q9t0j0dckidn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "270523371132-ss6ncpm8p656qh4o8cd3b4am1bhf7ur9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.julianostarek.flow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

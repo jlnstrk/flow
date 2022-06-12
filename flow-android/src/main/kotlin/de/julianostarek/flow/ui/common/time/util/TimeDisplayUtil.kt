@@ -13,7 +13,7 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 
 inline infix fun Instant.displayMinutesTo(other: Instant): Long {
-    return ((other - this).inWholeMinutes + 59L) / 60L
+    return ((other - this).inWholeSeconds + 59L) / 60L
 }
 
 inline fun Instant.toSystemLocal(): LocalDateTime = toLocalDateTime(TimeZone.currentSystemDefault())

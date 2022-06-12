@@ -12,6 +12,8 @@ googleServicesGradle = "4.3.10"
 buildkonfig = "0.12.0"
 ksp = "1.7.0-1.0.6"
 ktor = "2.0.2"
+sqldelight = "1.5.3"
+koin = "3.2.0"
 
 [libraries]
 kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -20,6 +22,7 @@ androidGradle = { module = "com.android.tools.build:gradle", version = "7.0.0" }
 hiltGradle = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
 googleServicesGradle = { module = "com.google.gms:google-services", version.ref = "googleServicesGradle" }
 buildkonfigGradle = { module = "com.codingfeline.buildkonfig:buildkonfig-gradle-plugin", version.ref = "buildkonfig" }
+sqldelightGradle = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "sqldelight" }
 
 androidx-room-core = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
@@ -47,6 +50,8 @@ androidx-test-rules = { module = "androidx.test:rules", version = "1.4.0" }
 firebase-core = { module = "com.google.firebase:firebase-core", version = "20.0.0" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore-ktx", version = "24.1.2" }
 
+kfirebase-firestore = { module = "dev.gitlive:firebase-firestore", version = "1.6.1" }
+
 glide-core = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
 
@@ -66,11 +71,19 @@ transit-interop-hapi = { module = "de.jlnstrk.transit:interop-hapi", version.ref
 transit-interop-efa = { module = "de.jlnstrk.transit:interop-efa", version.ref = "transit" }
 transit-interop-trias = { module = "de.jlnstrk.transit:interop-trias", version.ref = "transit" }
 
+sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
+sqldelight-driver-android = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqldelight" }
+sqldelight-driver-native = { module = "com.squareup.sqldelight:native-driver", version.ref = "sqldelight" }
+
 desugarJdkLibs = { module = "com.android.tools:desugar_jdk_libs", version = "1.1.5" }
 logger = { module = "com.orhanobut:logger", version = "2.2.0" }
 recyclerviewAnimators = { module = "jp.wasabeef:recyclerview-animators", version = "4.0.2" }
 dahdit = { module = "com.xfinity:dahdit", version = "0.9.3" }
 debugDb = { module = "com.amitshekhar.android:debug-db", version = "1.0.6" }
+
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-annotations = { module = "io.insert-koin:koin-annotations", version = "1.0.0" }
+koin-compiler = { module = "io.insert-koin:koin-ksp-compiler", version = "1.0.0" }
 
 [bundles]
 transit = [
@@ -84,3 +97,4 @@ transit = [
 [plugins]
 buildkonfig = { id = "com.codingfeline.buildkonfig", version.ref = "buildkonfig" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+sqldelight = { id = "com.squareup.sqldelight", version.ref = "sqldelight" }

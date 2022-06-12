@@ -110,7 +110,7 @@ class TimeSelectorDialog : DialogFragment(), View.OnClickListener {
         override fun instantiateItem(container: ViewGroup, position: Int): View {
             val textView = LayoutInflater.from(container.context)
                 .inflate(R.layout.dialog_item_digits, container, false) as TextView
-            textView.text = DATE_FORMAT.formatInstant(getTimeForPosition(position))
+            textView.text = DATE_FORMAT.formatDate(getTimeForPosition(position))
             container.addView(textView)
             return textView
         }

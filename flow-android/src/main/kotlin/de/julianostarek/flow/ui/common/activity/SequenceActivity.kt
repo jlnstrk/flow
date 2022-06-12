@@ -3,6 +3,7 @@ package de.julianostarek.flow.ui.common.activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import de.julianostarek.flow.FlowApp
+import de.julianostarek.flow.profile.themeRes
 
 abstract class SequenceActivity : AppCompatActivity() {
     val app: FlowApp
