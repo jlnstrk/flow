@@ -14,7 +14,7 @@ import GoogleMaps
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        FirebaseApp.configure()
+        // FirebaseApp.configure()
 
         let mapsKey = Bundle.main.object(forInfoDictionaryKey: "GMS_MAPS_KEY") as? String
         guard let mapsKey = mapsKey, !mapsKey.isEmpty else {
